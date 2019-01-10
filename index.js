@@ -5,10 +5,10 @@ const process = require('./data_process/influx_utility.js');
 const db = config.influxConfig('localhost', 'cars_data', 8086);
 
 client.on('connect', function () {
-    client.subscribe('kitt/cars/+/temperature');
-    client.subscribe('kitt/cars/+/speed');
-    client.subscribe('kitt/cars/+/GPS/lat');
-    client.subscribe('kitt/cars/+/GPS/lon');
+    client.subscribe('kitt/cars/+/temperature1');
+    client.subscribe('kitt/cars/+/speed1');
+    client.subscribe('kitt/cars/+/GPS/lat1');
+    client.subscribe('kitt/cars/+/GPS/lon1');
 });
 
 client.on('message', function (topic, message) {
