@@ -61,3 +61,6 @@ typings/
 # IDEs
 .idea
 
+# Visual Studio
+packages/
+.vs

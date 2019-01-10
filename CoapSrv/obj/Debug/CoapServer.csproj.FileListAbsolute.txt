@@ -1,0 +1,15 @@
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\CoapSrv.exe.config
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\CoapSrv.exe
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\CoapSrv.pdb
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\CoAP.NET.dll
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\CoAP.NET.pdb
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\CoAP.NET.xml
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\obj\Debug\CoapServer.csprojAssemblyReference.cache
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\obj\Debug\CoapServer.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\obj\Debug\CoapServer.csproj.CopyComplete
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\obj\Debug\CoapSrv.exe
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\obj\Debug\CoapSrv.pdb
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\InfluxDB.LineProtocol.dll
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Utente\source\repos\CoapSrv\CoapSrv\bin\Debug\Newtonsoft.Json.xml
