@@ -21,7 +21,6 @@ namespace CoapSrv.Resources
         async protected override void DoPost(CoapExchange exchange)
         {
             var body = JsonConvert.DeserializeObject<SensorTemplate>(exchange.Request.PayloadString);
-
             DateTime timestamp = new DateTime(1970, 1, 1).AddMilliseconds(body.timestamp);
 
             var sensorData = new LineProtocolPoint(
@@ -29,16 +28,16 @@ namespace CoapSrv.Resources
                 new Dictionary<string, object> //fields
                 {
                     { "temperature", body.fields[0].temperature },
-                    { "speed", body.fields[1].speed },
-                    { "lat", body.fields[2].lat },
-                    { "lon", body.fields[3].lon }
+                    { "speed", body.fields[0].speed },
+                    { "lat", body.fields[0].lat },
+                    { "lon", body.fields[0].lon }
                 },
                 new Dictionary<string, string>{}, //tags
-                DateTime.UtcNow); //timestamp
-
+                timestamp.ToUniversalTime()); //timestamp
+                
             var payload = new LineProtocolPayload();
             payload.Add(sensorData);
-
+            
             var client = new LineProtocolClient(new Uri("http://localhost:8086"), "cars_data");
             var influxResult = await client.WriteAsync(payload);
             if (!influxResult.Success)

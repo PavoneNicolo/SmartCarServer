@@ -8,9 +8,9 @@ namespace CoapSrv.Models
 {
     class Field
     {
-        public int temperature { get; set; }
-        public int speed { get; set; }
-        public int lat { get; set; }
-        public int lon { get; set; }
+        public decimal temperature { get; set; }
+        public decimal speed { get; set; }
+        public decimal lat { get; set; }
+        public decimal lon { get; set; }
     }
 }
